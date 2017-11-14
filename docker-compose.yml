@@ -2,6 +2,7 @@ version: '2'
 services:
   category-classifier-db:
     build: .
+    #comment
     volumes:
       - ./etc:/usr/local/etc/couchdb/local.d
       - ./lib:/usr/local/var/lib/couchdb
